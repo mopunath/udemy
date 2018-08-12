@@ -4,7 +4,7 @@ node {
       git 'https://github.com/mopunath/udemy'
       mvnHome = tool 'maven'
    }
-   stage('Build') {
+   stage('check-out') {
       if (isUnix()) {
          sh "'${mvnHome}/bin/mvn' -Dmaven.test.failure.ignore clean package"
       } else {
