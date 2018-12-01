@@ -1,6 +1,6 @@
 node {
    def mvnHome
-   stage('Prepare') {
+   stage('build') {
       git 'https://github.com/mopunath/udemy'
       mvnHome = tool 'maven'
    }
