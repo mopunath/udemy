@@ -6,10 +6,8 @@
 	<artifactId>devops</artifactId>
 	<version>1.6.2-SNAPSHOT</version>
 	<packaging>war</packaging>
-
 	<name>devops</name>
 	<description>DevOps Demo Project</description>	
-
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
