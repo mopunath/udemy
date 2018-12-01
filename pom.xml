@@ -6,7 +6,7 @@
 	<artifactId>devops</artifactId>
 	<version>1.6.2-SNAPSHOT</version>
 	<packaging>war</packaging>
-	<name>devops</name>
+	<name>mopunath</name>
 	<description>DevOps Demo Project</description>	
 	<parent>
 		<groupId>org.springframework.boot</groupId>
